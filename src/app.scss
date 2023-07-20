@@ -1,0 +1,22 @@
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+@import "base/typography";
+@import "base/utlities";
+@import "base/resets.scss";
+
+@import "components/menu.scss";
+
+@import "layout/header";
+@import "layout/footer.scss";
+@import "layout/all.scss";
+
+@import "pages/page-home";
+@import "pages/page-single-collection";
+@import "pages/page-single-product";
+@import "pages/page-blog";
+@import "pages/page-single-blog";
+@import "pages/page-contact";
+
+@import "vendors/bootstrap";

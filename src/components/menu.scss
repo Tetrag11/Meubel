@@ -1,0 +1,30 @@
+.black-line:hover *,
+.white-line:hover *,
+.gold-line:hover * {
+  color: $text-gold;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.white-line {
+  padding: 20px 0;
+}
+
+.fsm {
+  .number-text,
+  .body-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+
+  .black-line:hover .number-text,
+  .black-line:hover .body-text,
+  .white-line:hover .number-text,
+  .white-line:hover .body-text,
+  .gold-line:hover .number-text,
+  .gold-line:hover .body-text {
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,137 @@
+.heading {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $heading-web;
+  line-height: $heading-web-lh;
+}
+
+.logo-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $logo-text;
+  line-height: $logo-text-lh;
+  letter-spacing: 0.1em;
+  text-align: center !important;
+}
+
+.sub-heading {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $sub-heading-web;
+  line-height: $sub-heading-web-lh;
+}
+
+.sub-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $sub-text-web;
+  line-height: $sub-text-web-lh;
+}
+
+.body-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $body-text-web;
+  line-height: $body-text-web-lh;
+}
+
+.link-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $link-text-web;
+  line-height: $link-text-web-lh;
+}
+
+.number-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $number-text-web;
+  line-height: $number-text-web-lh;
+}
+
+.menu-text {
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: $menu-text-tab;
+  line-height: $menu-text-tab-lh;
+}
+
+.link-text:hover {
+  color: $text-gold;
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    font-size: $heading-tab;
+    line-height: $heading-tab-lh;
+  }
+
+  .sub-heading {
+    font-size: $sub-heading-tab;
+    line-height: $sub-heading-tab-lh;
+  }
+
+  .sub-text {
+    font-size: $sub-text-tab;
+    line-height: $sub-text-tab-lh;
+  }
+
+  .body-text {
+    font-size: $body-text-tab;
+    line-height: $body-text-tab-lh;
+  }
+
+  .link-text {
+    font-size: $link-text-tab;
+    line-height: $link-text-tab-lh;
+  }
+
+  .number-text {
+    font-size: $number-text-tab;
+    line-height: $number-text-tab-lh;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: $heading-mobile;
+    line-height: $heading-mobile-lh;
+  }
+
+  .sub-heading {
+    font-size: $sub-heading-mobile;
+    line-height: $sub-heading-mobile-lh;
+  }
+
+  .sub-text {
+    font-size: $sub-text-mobile;
+    line-height: $sub-text-mobile-lh;
+  }
+
+  .body-text {
+    font-size: $body-text-mobile;
+    line-height: $body-text-mobile-lh;
+  }
+
+  .link-text {
+    font-size: $link-text-mobile;
+    line-height: $link-text-mobile-lh;
+  }
+
+  .number-text {
+    font-size: $number-text-mobile;
+    line-height: $number-text-mobile-lh;
+  }
+  .menu-text {
+    font-size: $menu-text-mobile;
+    line-height: $menu-text-mobile-lh;
+  }
+}
